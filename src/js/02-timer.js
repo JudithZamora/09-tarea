@@ -2,6 +2,8 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import notiflix from "notiflix";
 
+
+
 const countdownTimer = (targetDate) => {
   const timer = document.querySelector(".timer");
   const daysElement = timer.querySelector("[data-days]");
