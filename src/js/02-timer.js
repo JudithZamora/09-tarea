@@ -1,5 +1,8 @@
-import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css';
+// Descrito en la documentación
+import flatpickr from "flatpickr";
+// Importación adicional de estilos
+import "flatpickr/dist/flatpickr.min.css";
+
 import Notiflix from 'notiflix';
 function convertMs(ms) {
   // Number of milliseconds per unit of time
