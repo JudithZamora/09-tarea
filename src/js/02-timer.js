@@ -1,9 +1,10 @@
-// Descrito en la documentación
+ // Descrito en la documentación
 import flatpickr from "flatpickr";
 // Importación adicional de estilos
 import "flatpickr/dist/flatpickr.min.css";
-
+//
 import Notiflix from 'notiflix';
+//
 function convertMs(ms) {
   // Number of milliseconds per unit of time
   const second = 1000;
@@ -83,4 +84,5 @@ function upDateTime(countTimer) {
   refs.hours.textContent = addLeadingZero(countTimer.hours);
   refs.minutes.textContent = addLeadingZero(countTimer.minutes);
   refs.seconds.textContent = addLeadingZero(countTimer.seconds);
-}
+} 
+
